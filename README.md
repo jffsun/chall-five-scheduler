@@ -27,7 +27,7 @@ The application saves the task into the user's local storage.
 
 The tasks are retrieved upon page reload. The following gif shows a tasks being input, saved, and persisting after reloading the page.
 
-![Page Reloading](./assets/images/reload.gif)
+![Page Reloading](./assets/images/reload-page.gif)
 
 ### Color-coded Timeslots
 

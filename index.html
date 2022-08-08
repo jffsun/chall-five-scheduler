@@ -30,14 +30,20 @@
     </header>
 
       <!-- Timeblocks go here -->
-      <div class="input-group input-group-lg">
-        <div class="input-group-prepend">
+      <div class="time-block row input-group input-group-lg">
+
+        <!-- Hour -->
+        <div class="hour input-group-prepend">
           <span class="input-group-text" id="inputGroup-sizing-lg">9 AM</span>
         </div>
-        <input type="text" class="form-control" placeholder="Enter task here..." aria-label="Large" aria-describedby="inputGroup-sizing-sm">
-            <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="button">Save</button>
-            </div>
+
+            <!-- Task description -->
+            <input type="text" class="description form-control" name="9am-description" id="9am-description" aria-label="Large" aria-describedby="inputGroup-sizing-sm"></input>
+                
+                <!-- Save button   -->
+                <div class="input-group-append saveBtn">
+                    <button class="btn btn-outline-secondary" id="9am-btn" type="button">Save</button>
+                </div>
       </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>

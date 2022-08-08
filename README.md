@@ -39,5 +39,5 @@ Tasks in the future are color coded green. Tasks are grey if tasks are in the pa
 ### Link to Github Page
 [https://jffsun.github.io/chall-five-scheduler/](https://jffsun.github.io/chall-five-scheduler/).
 
-### Link to Github Respository
+### Link to Github Repository
 [https://github.com/jffsun/chall-five-scheduler](https://github.com/jffsun/chall-five-scheduler).

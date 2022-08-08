@@ -29,22 +29,116 @@
       <h3 id="date-display"></h3>
     </header>
 
-      <!-- Timeblocks go here -->
-      <div class="time-block row input-group input-group-lg">
+    <!-- Appointment confirmation -->
+    <p id="appointment-confirm"></p>
+  
+    <!-- Timeblocks go here -->
 
-        <!-- Hour -->
+    <!-- 9am Timeblock -->
+    <div class="time-block row input-group input-group-lg" id="row-9am">
+
+      <!-- Hour -->
+      <div class="hour input-group-prepend" id="hour-9am">
+        <span class="input-group-text" id="inputGroup-sizing-lg"> 9 AM</span>
+      </div>
+
+      <!-- Task description -->
+      <input type="text" class="description form-control" name="input-9am" id="input-9am" aria-label="Large" aria-describedby="inputGroup-sizing-sm"></input>
+      
+      <!-- Save button   -->
+      <div class="input-group-append saveBtn">
+          <button class="btn btn-outline-secondary" id="9am-btn" type="button">💾</button>
+      </div>
+    </div>
+
+      <!-- 10am -->
+      <div class="time-block row input-group input-group-lg" id="row-10am">
+        <div class="hour input-group-prepend">  
+          <span class="input-group-text" id="inputGroup-sizing-lg">10 AM</span>
+        </div>
+        <input type="text" class="description form-control" name="input-10am" id="input-10am" aria-label="Large" aria-describedby="inputGroup-sizing-sm"></input>
+        <div class="input-group-append saveBtn">
+        <button class="btn btn-outline-secondary" id="10am-btn" type="button">💾</button>
+        </div>
+      </div>
+
+      <!-- 11am -->
+      <div class="time-block row input-group input-group-lg" id="row-11am">
         <div class="hour input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-lg">9 AM</span>
+          <span class="input-group-text" id="inputGroup-sizing-lg">11 AM</span>
+        </div>
+        <input type="text" class="description form-control" name="input-11am" id="input-11am" aria-label="Large" aria-describedby="inputGroup-sizing-sm"></input>
+        <div class="input-group-append saveBtn">
+        <button class="btn btn-outline-secondary" id="11am-btn" type="button">💾</button>
+        </div>
+      </div>
+
+       <!-- 12pm -->
+       <div class="time-block row input-group input-group-lg" id="row-12pm">
+        <div class="hour input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-lg">12 PM</span>
+        </div>
+        <input type="text" class="description form-control" name="input-12pm" id="input-12pm" aria-label="Large" aria-describedby="inputGroup-sizing-sm"></input>
+        <div class="input-group-append saveBtn">
+        <button class="btn btn-outline-secondary" id="12pm-btn" type="button">💾</button>
+        </div>
+      </div>
+
+       <!-- 1pm -->
+       <div class="time-block row input-group input-group-lg" id="row-1pm">
+        <div class="hour input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-lg"> 1 PM</span>
+        </div>
+        <input type="text" class="description form-control" name="input-1pm" id="input-1pm" aria-label="Large" aria-describedby="inputGroup-sizing-sm"></input>
+        <div class="input-group-append saveBtn">
+        <button class="btn btn-outline-secondary" id="1pm-btn" type="button">💾</button>
+        </div>
+      </div>
+
+          <!-- 2pm -->
+       <div class="time-block row input-group input-group-lg" id="row-2pm">
+        <div class="hour input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-lg"> 2 PM</span>
+        </div>
+        <input type="text" class="description form-control" name="input-2pm" id="input-2pm" aria-label="Large" aria-describedby="inputGroup-sizing-sm"></input>
+        <div class="input-group-append saveBtn">
+        <button class="btn btn-outline-secondary" id="2pm-btn" type="button">💾</button>
+        </div>
+      </div>
+
+        <!-- 3pm -->
+        <div class="time-block row input-group input-group-lg" id="row-3pm">
+          <div class="hour input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-lg"> 3 PM</span>
+          </div>
+          <input type="text" class="description form-control" name="input-3pm" id="input-3pm" aria-label="Large" aria-describedby="inputGroup-sizing-sm"></input>
+          <div class="input-group-append saveBtn">
+          <button class="btn btn-outline-secondary" id="3pm-btn" type="button">💾</button>
+          </div>
         </div>
 
-            <!-- Task description -->
-            <input type="text" class="description form-control" name="9am-description" id="9am-description" aria-label="Large" aria-describedby="inputGroup-sizing-sm"></input>
-                
-                <!-- Save button   -->
-                <div class="input-group-append saveBtn">
-                    <button class="btn btn-outline-secondary" id="9am-btn" type="button">Save</button>
-                </div>
-      </div>
+        <!-- 4pm -->
+        <div class="time-block row input-group input-group-lg" id="row-4pm">
+          <div class="hour input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-lg"> 4 PM</span>
+          </div>
+          <input type="text" class="description form-control" name="input-4pm" id="input-4pm" aria-label="Large" aria-describedby="inputGroup-sizing-sm"></input>
+          <div class="input-group-append saveBtn">
+          <button class="btn btn-outline-secondary" id="4pm-btn" type="button">💾</button>
+          </div>
+        </div>
+
+        <!-- 5pm -->
+        <div class="time-block row input-group input-group-lg" id="row-5pm">
+          <div class="hour input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-lg">5 PM</span>
+          </div>
+          <input type="text" class="description form-control" name="input-5pm" id="input-5pm" aria-label="Large" aria-describedby="inputGroup-sizing-sm"></input>
+          <div class="input-group-append saveBtn">
+          <button class="btn btn-outline-secondary" id="5pm-btn" type="button">💾</button>
+          </div>
+        </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>

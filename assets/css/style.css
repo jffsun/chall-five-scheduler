@@ -1,3 +1,9 @@
+/* Reset styling */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -12,7 +18,11 @@ body {
     border-left: 1px solid black;
     padding: 10px;
   }
-  
+
+ input {
+  background: transparent;
+ } 
+
   .jumbotron {
     text-align: center;
     background-color: transparent;
@@ -24,6 +34,7 @@ body {
   
   .description {
     white-space: pre-wrap;
+    height: 80px;
   }
   
   .time-block {
@@ -33,7 +44,7 @@ body {
   
   .row {
     white-space: pre-wrap;
-    height: 80px;
+    height: 100px;
     border-top: 1px solid white;
   }
   
@@ -74,3 +85,19 @@ body {
   #dateDisplay p {
     font-size: 1.5rem;
   }
+
+  #appointment-confirm {
+    text-align: center;
+  }
+
+
+  /* Blend input box with timeslot row */
+  .form-control {
+    background: transparent;
+    border: transparent;
+  }
+
+  /* Widen padding around hour */
+  .input-group-lg>.custom-select, .input-group-lg>.form-control, .input-group-lg>.input-group-append>.btn, .input-group-lg>.input-group-append>.input-group-text, .input-group-lg>.input-group-prepend>.btn, .input-group-lg>.input-group-prepend>.input-group-text {
+    padding: 0.5rem 2rem;
+}
